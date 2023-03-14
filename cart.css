@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main{
+    background-color: #DCD6F7;
+}
+
+/* navbar */
+.Navbar{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.25rem;
+}
+.Navbar h2{
+    color: #CACFD6;
+    font-family:  'Abel', sans-serif;
+    padding: 15px;
+}
+.Navbar .toggle{
+    background-color: #DCD6F7;
+}
+.Navbar img{
+    background-color: #CACFD6;
+    border-radius: 25px;
+    padding: 2px;
+}
+.Navbar img:hover{
+    size: 1.2rem;
+}
+.Navbar .nav-link {
+    color:#F5F2ED;
+    font-family:  'Abel', sans-serif;
+}
+a.nav-link:hover{
+    color: #F5F2ED;
+    font-size: 1.2rem;
+    font-weight: bolD;
+    transition-duration: 1s;
+    font-family:  'Abel', sans-serif;;
+}
+.Navbar .Nav-item-margin{
+    margin-left: 75%;
+}
+
+/* cart details */
+.cart-table{
+    overflow-x: auto;
+}
+.cart-table table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart-table table thead{
+    font-weight: bold;
+}
+.cart-table .table{
+    margin-bottom: 0px;
+}
+.cart-table table thead td{
+    background-color: #424874;
+    color: #CACFD6;
+    border: none;
+    padding: 6px 0;
+}
+.cart-table table td{
+    border: 1px solid #424874;
+}
+.cart-table table td:nth-child(1){
+    width: 100px;
+}
+.cart-table table td:nth-child(2),.cart-table table td:nth-child(3){
+    width: 300px;
+}
+.cart-table .inc-dec-sign{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-table .inc-dec-sign i,.cart-table .inc-dec-sign .quantity{
+    /* padding-top: 5px; */
+    text-align: center;
+    line-height: 2;
+}
+
+/* button */
+.row  button{
+    background-color: transparent;
+    color: #424874;
+    border: 2px solid #424874;
+    font-size: 1rem;
+    
+    
+}
+.row  button a{
+    color: #424874;
+    text-decoration: none;      
+}
+.row  button a:hover{
+    color: #424874;
+}
+.row  button:hover{
+    background-color: transparent;
+    color: #424874;
+    font-weight: bolder;
+    border: 2px solid #424874;
+}
+.cart-bottom .coupon div,.cart-bottom .total{
+    border: 1px solid #424874;
+}
+.cart-bottom .coupon h5,.cart-bottom .total h5{
+    background-color: #424874;
+    color: #CACFD6;
+    border: none;
+    padding: 6px 0;
+}
+.cart-bottom .coupon p,.cart-bottom .coupon input{
+    padding: 0 12px;
+}
+.cart-bottom .coupon input,.cart-bottom .coupon button{
+    height: 44px;
+    margin: 0 0 20px 12px;
+}
+.cart-bottom .total h6,.cart-bottom .total p {
+    padding: 0 12px;
+}
+.cart-bottom .total button{
+    margin: 20px ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* footer */
+.footer{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;;
+}
+.footer h5{
+    color: #CACFD6;
+}
+.footer .footer-items{
+    color: #F5F2ED;
+}
+.footer img{
+    margin: 2rem;
+    background-color: #CACFD6;
+    border-radius: 50px;
+}
+.footer .section .heading{
+    color: #CACFD6;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .section a{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.footer .section a:hover{
+    font-size: 1.50rem;
+}
+.footer .links{
+    color: #DCD6F7;
+}
+.footer .links .heading{
+    font-size: 2rem;
+}
+.footer .links li{
+    margin-top: 8px;
+}
+.footer .links .icon-item{
+    color: #CACFD6;
+}

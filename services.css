@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main{
+    background-color: #DCD6F7;
+}
+
+/* navbar */
+.Navbar{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.25rem;
+}
+.Navbar h2{
+    color: #CACFD6;
+    font-family:  'Abel', sans-serif;
+    padding: 15px;
+}
+.Navbar .toggle{
+    background-color: #DCD6F7;
+}
+.Navbar img{
+    background-color: #CACFD6;
+    border-radius: 25px;
+    padding: 2px;
+}
+.Navbar img:hover{
+    size: 1.2rem;
+}
+.Navbar .nav-link {
+    color:#F5F2ED;
+    font-family:  'Abel', sans-serif;
+}
+a.nav-link:hover{
+    color: #F5F2ED;
+    font-size: 1.2rem;
+    font-weight: bolD;
+    transition-duration: 1s;
+    font-family:  'Abel', sans-serif;;
+}
+.Navbar .Nav-item-margin{
+    margin-left: 75%;
+}
+
+/* services */
+.services .heading{
+    padding-top: 15px;
+    text-decoration: underline;
+}
+.services .description{
+    padding-top:15px ;
+}
+.services img{
+    border: 5px solid #424874;
+    border-radius: 5px;
+}
+.services img:hover{
+    border: 5px solid #424874;
+    border-radius: 20px;
+}
+.services .p-name{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.services .items{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* button */
+.product button{
+    margin: 10px;
+    background-color: transparent;
+    color: #424874;
+    border: 2px solid #424874;
+    font-size: 1.25rem;
+    padding: 5px;
+    
+}
+.product button a{
+    color: #424874;
+    text-decoration: none;    
+    padding: 5px;  
+}
+.product button a:hover{
+    color: #424874;
+}
+.product button:hover{
+    background-color: transparent;
+    color: #424874;
+    font-weight: bolder;
+    border: 2px solid #424874;
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;;
+}
+.footer h5{
+    color: #CACFD6;
+}
+.footer .footer-items{
+    color: #F5F2ED;
+}
+.footer img{
+    margin: 2rem;
+    background-color: #CACFD6;
+    border-radius: 50px;
+}
+.footer .section .heading{
+    color: #CACFD6;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .section a{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.footer .section a:hover{
+    font-size: 1.50rem;
+}
+.footer .links{
+    color: #DCD6F7;
+}
+.footer .links .heading{
+    font-size: 2rem;
+}
+.footer .links li{
+    margin-top: 8px;
+}
+.footer .links .icon-item{
+    color: #CACFD6;
+}
+
+/* single page services css */
+.products .img-fluid{
+    border: 5px solid #424874;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.products img:hover{
+    border: 5px solid #424874;
+    border-radius: 50px;    
+}
+.products .small-img-group{
+    display: flex;
+    justify-content: center;
+}
+.products .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.products .small-img{
+    border: 2px solid #424874;
+    border-radius: 10px;
+}
+.products .row{
+    border: 5px solid #424874;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: #c4cdf6;
+}
+
+.productDetails input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid #424874;
+    background-color: transparent;
+}
+
+/* related product */
+.items{
+    display: flex;
+    justify-content:space-evenly;
+}
+.items img{
+    border: 5px solid #424874;
+    border-radius: 5px;
+}

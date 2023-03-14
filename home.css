@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main{
+    background-color: #DCD6F7;
+}
+
+/* navbar */
+.Navbar{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.25rem;
+}
+.Navbar h2{
+    color: #CACFD6;
+    font-family:  'Abel', sans-serif;
+    padding: 15px;
+}
+.Navbar .toggle{
+    background-color: #DCD6F7;
+}
+.Navbar img{
+    background-color: #CACFD6;
+    border-radius: 25px;
+    padding: 2px;
+}
+.Navbar img:hover{
+    size: 1.2rem;
+}
+.Navbar .nav-link {
+    color:#F5F2ED;
+    font-family:  'Abel', sans-serif;
+}
+a.nav-link:hover{
+    color: #F5F2ED;
+    font-size: 1.2rem;
+    font-weight: bolD;
+    transition-duration: 1s;
+    font-family:  'Abel', sans-serif;;
+}
+.Navbar .Nav-item-margin{
+    margin-left: 75%;
+}
+
+/* slider-carousel */
+.carousel-item img{
+    font-family:  'Abel', sans-serif;;
+    opacity: 0.4;
+    
+}
+.carousel{
+    border: 15px solid #424874;
+}
+.carousel-indicartors button{
+    color: black;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-family: 'Abel', sans-serif; ;
+    font-size: 5rem;
+    margin-top: 25px;
+    color: black;
+}
+.carousel-caption p{
+    font-family: 'Abel', sans-serif; ;
+    width: 60%;
+    margin: auto;
+    font-size:2rem;
+    padding-bottom: 30px;
+    color: black;
+}
+.carousel-caption button{
+    padding: 5px;
+    margin: 10px;
+    background-color: #424874;
+    color: white;
+}
+.carousel-caption button a{
+    color: white;
+    text-decoration: none;
+}
+.carousel-caption button a:hover{
+     color: #424874;
+}
+.carousel-caption button:hover{
+    background-color: transparent;
+    color: #424874;
+    font-weight: bold;
+    border: 2px solid #424874;
+}
+
+/* features */
+.features{
+    font-family:  'Abel', sans-serif;
+    
+}
+.features .heading{
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.features .feature-item{
+    border: 5px solid #424874;
+    border-radius: 20px;
+    background-color: #c4cdf6;
+    padding: 10px;
+}
+.features h3{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.features p{
+    font-size: 1.25rem;
+}
+/* button */
+.features button{
+    margin: 10px;
+    background-color: transparent;
+    color: #424874;
+    border: 2px solid #424874;
+    font-size: 1.25rem;
+    
+}
+.features button a{
+    color: #424874;
+    text-decoration: none;      
+}
+.features button a:hover{
+    color: #424874;
+}
+.features button:hover{
+    background-color: transparent;
+    color: #424874;
+    font-weight: bolder;
+    border: 2px solid #424874;
+}
+.features img{
+    border: 2px solid #424874;
+}
+
+/* hr */
+.horizontal{
+    border-top: 5px solid black;
+}
+
+/* feedback */
+.feedback{
+    font-family:  'Abel', sans-serif;
+}
+.feedback h1{
+    text-decoration: underline;
+}
+.feedback p{
+    font-size: 1.25rem;
+}
+.feedback img{
+    border: 2px solid #424874;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.feedback .feedback-item{
+    border: 5px solid #424874;
+    border-radius: 20px;
+    background-color: #c4cdf6;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* footer */
+.footer{
+    background-color: #424874;
+    font-family:  'Abel', sans-serif;;
+}
+.footer h5{
+    color: #CACFD6;
+}
+.footer .footer-items{
+    color: #F5F2ED;
+}
+.footer img{
+    margin: 2rem;
+    background-color: #CACFD6;
+    border-radius: 50px;
+}
+.footer .section .heading{
+    color: #CACFD6;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .section a{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.footer .section a:hover{
+    font-size: 1.50rem;
+}
+.footer .links{
+    color: #DCD6F7;
+}
+.footer .links .heading{
+    font-size: 2rem;
+}
+.footer .links li{
+    margin-top: 8px;
+}
+.footer .links .icon-item{
+    color: #CACFD6;
+}
